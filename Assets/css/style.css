@@ -1,11 +1,9 @@
 body {
   margin: 0;
-  background: rgb(230, 222, 222);
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   color: #333;
   line-height: 1.6;
-  font-family: "Times New Roman", Times, serif;
 }
 *,
 *:before,
@@ -13,8 +11,7 @@ body {
   box-sizing: border-box;
 }
 .container {
-  width: 100%;
-  max-width: 1200px;
+  max-width: 700px;
   margin: 0 auto;
 }
 .intro {
@@ -22,7 +19,6 @@ body {
   height: 100vh;
   background: url(../Images/ледяной.jpg) center no-repeat;
   background-size: cover;
-  flex-direction: column;
   justify-content: center;
   padding-top: 200px;
 }
@@ -36,7 +32,7 @@ body {
 }
 .intro_title:after {
   content: "";
-  width: 100px;
+  width: 200px;
   display: block;
   height: 5px;
   background-color: #cdf3dc;
@@ -48,14 +44,7 @@ body {
   margin: 0 auto;
   text-align: center;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
+
 .header {
   position: absolute;
   padding-top: 25px;
@@ -134,13 +123,13 @@ h6 {
   opacity: 0.7;
 }
 .second_container {
-  background-image: url(../Images/кинг2.jpeg);
+  background-image: url(../Images/кинг2.jpeg) center no-repeat;
   background-size: cover;
   color: #cdf3dc;
   font-size: 15px;
   font-weight: bold;
-  padding-top: 35px;
-  padding-bottom: 25px;
+  padding: 35px;
+  max-width: 700px;
 }
 span {
   color: #20b2aa;
@@ -158,12 +147,13 @@ span {
 }
 .paint:hover {
   color: coral;
-  transition: color 0.2s linear; }
+  transition: color 0.2s linear;
+}
 
-  .second_container img:hover{
-    border: 2px solid coral ;
-    transition: color 0.2s linear; 
-  }
+.second_container img:hover {
+  border: 2px solid coral;
+  transition: color 0.2s linear;
+}
 .deyneris {
   width: 115px;
   height: 135px;
