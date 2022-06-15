@@ -103,7 +103,6 @@ body {
 }
 .btn {
   display: inline-block;
-  vertical-align: top;
   padding: 15px 10px;
   border: 3px solid #cdf3dc;
   color: #cdf3dc;
@@ -128,8 +127,10 @@ body {
   color: #cdf3dc;
   font-size: 15px;
   font-weight: bold;
-  padding: 35px;
-  }
+  padding:25px;
+  padding-top: 10px;
+  
+}
 span {
   color: #20b2aa;
 }
@@ -138,6 +139,8 @@ span {
   font-size: 35px;
   text-align: center;
   color: #d5dbe7;
+  padding-top: 10px;
+  line-height: 1.2;
 }
 .paint {
   color: #d5dbe7;
@@ -158,6 +161,7 @@ span {
   height: 135px;
   border-radius: 25px;
 }
+
 /* .deyneris:hover {
   border: 2px solid #eb8220;
 } */
@@ -212,3 +216,7 @@ span {
   color: coral;
   transition: color 0.2s linear;
 }
+/* .walker{
+  height:100%;
+  width: 100%;
+  } */
