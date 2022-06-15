@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.intro {
+  width: 100%;
+  height: 100vh;
+  background: url(../Images/ледяной.jpg) center no-repeat;
+  background-size: cover;
+  justify-content: center;
+  padding-top: 200px;
+}
+.intro_title {
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #cdf3dc;
+  opacity: 0;
+}
+.intro_title:after {
+  content: "";
+  width: 200px;
+  display: block;
+  height: 5px;
+  background-color: #cdf3dc;
+  margin: 30px auto 0;
+}
+.intro_inner {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  position: absolute;
+  padding-top: 25px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000px;
+}
+.header_logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: #cdf3dc;
+}
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.nav_link {
+  color: #cdf3dc;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  font-weight: 800;
+  transition: color 0.2s linear;
+}
+.nav_link:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+.nav_link:hover {
+  color: #fff;
+}
+
+.nav_link:hover::after {
+  display: block;
+  opacity: 1;
+}
+.btn {
+  display: inline-block;
+  padding: 15px 10px;
+  border: 3px solid #cdf3dc;
+  color: #cdf3dc;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.btn:hover {
+  color: #0e56f4;
+  background-color: #141a22;
+  border: none;
+  opacity: 0.8;
+}
+.intro_title:hover {
+  opacity: 0.7;
+}
+.second_container {
+  background-image: url(../Images/кинг2.jpeg);
+  background-size: cover;
+  color: #cdf3dc;
+  font-size: 15px;
+  font-weight: bold;
+  padding:25px;
+  padding-top: 10px;
+  
+}
+span {
+  color: #20b2aa;
+}
+
+.squad {
+  font-size: 35px;
+  text-align: center;
+  color: #d5dbe7;
+  padding-top: 10px;
+  line-height: 1.2;
+}
+.paint {
+  color: #d5dbe7;
+  text-decoration: none;
+  font-size: 20px;
+}
+.paint:hover {
+  color: coral;
+  transition: color 0.2s linear;
+}
+
+.second_container img:hover {
+  border: 2px solid coral;
+  transition: color 0.2s linear;
+}
+.deyneris {
+  width: 115px;
+  height: 135px;
+  border-radius: 25px;
+}
+
+/* .deyneris:hover {
+  border: 2px solid #eb8220;
+} */
+.kate {
+  width: 115px;
+  height: 135px;
+  border-radius: 25px;
+}
+.jamie {
+  width: 115px;
+  height: 135px;
+  border-radius: 25px;
+}
+.rob {
+  width: 115px;
+  height: 135px;
+  border-radius: 25px;
+}
+.ned {
+  width: 115px;
+  height: 135px;
+  border-radius: 25px;
+}
+.list_actors {
+  width: 50%;
+}
+.about {
+  color: #d5dbe7;
+}
+.follow {
+  font-size: 15px;
+  font-weight: bold;
+  color: #cdf3dc;
+  padding-top: 50px;
+  text-align: center;
+}
+.Inst {
+  color: #d5dbe7;
+  text-decoration: none;
+}
+.facebook {
+  color: #d5dbe7;
+  text-decoration: none;
+}
+.Inst:hover {
+  text-decoration: underline;
+  color: coral;
+  transition: color 0.2s linear;
+}
+.facebook:hover {
+  text-decoration: underline;
+  color: coral;
+  transition: color 0.2s linear;
+}
+/* .walker{
+  height:100%;
+  width: 100%;
+  } */
