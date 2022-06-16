@@ -13,14 +13,15 @@ body {
 .container {
   max-width: 700px;
   margin: 0 auto;
+  
 }
 .intro {
   width: 100%;
-  height: 100vh;
-  background: url(../Images/ледяной.jpg) center no-repeat;
+  background: url(../Images/ледяной.jpg) ;
   background-size: cover;
   justify-content: center;
   padding-top: 200px;
+  padding-bottom: 35px;
 }
 .intro_title {
   font-size: 80px;
@@ -28,7 +29,7 @@ body {
   text-transform: uppercase;
   line-height: 1;
   color: #cdf3dc;
-  opacity: 0;
+  opacity: 0.7;
 }
 .intro_title:after {
   content: "";
@@ -40,19 +41,16 @@ body {
 }
 .intro_inner {
   width: 100%;
-  max-width: 550px;
   margin: 0 auto;
   text-align: center;
 }
 
 .header {
-  position: absolute;
-  padding-top: 25px;
+  background-color: #21282E;
+  padding: 25px 25px;
   width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000px;
+  
+  
 }
 .header_logo {
   font-size: 30px;
@@ -118,9 +116,9 @@ body {
   border: none;
   opacity: 0.8;
 }
-.intro_title:hover {
-  opacity: 0.7;
-}
+/* .intro_title:hover {
+  opacity: 0.7; 
+ } */
 .second_container {
   background-image: url(../Images/кинг2.jpeg);
   background-size: cover;
@@ -197,6 +195,8 @@ span {
   color: #cdf3dc;
   padding-top: 50px;
   text-align: center;
+padding-bottom: 25px;
+  background-color:#21282E;
 }
 .Inst {
   color: #d5dbe7;
@@ -223,6 +223,6 @@ span {
   .track{
     width: 50%;
   }
-  .nametrack{
-    margin-left: 35px;
+  .clip{
+    width: 50%;
   }
