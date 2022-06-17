@@ -23,7 +23,7 @@ body {
   padding-top: 200px;
   padding-bottom: 35px;
 }
-.intro_title {
+.intro__title {
   font-size: 80px;
   font-weight: bold;
   text-transform: uppercase;
@@ -31,7 +31,7 @@ body {
   color: #cdf3dc;
   opacity: 0.7;
 }
-.intro_title:after {
+.intro__title:after {
   content: "";
   width: 200px;
   display: block;
@@ -39,7 +39,7 @@ body {
   background-color: #cdf3dc;
   margin: 30px auto 0;
 }
-.intro_inner {
+.intro__inner {
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -52,12 +52,12 @@ body {
   
   
 }
-.header_logo {
+.header__logo {
   font-size: 30px;
   font-weight: 700;
   color: #cdf3dc;
 }
-.header_inner {
+.header__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,7 +67,7 @@ body {
   font-size: 14px;
   text-transform: uppercase;
 }
-.nav_link {
+.nav__link {
   color: #cdf3dc;
   display: inline-block;
   vertical-align: top;
@@ -78,7 +78,7 @@ body {
   font-weight: 800;
   transition: color 0.2s linear;
 }
-.nav_link:after {
+.nav__link:after {
   content: "";
   display: block;
   width: 100%;
@@ -91,11 +91,11 @@ body {
   opacity: 0;
   transition: opacity 0.2s linear;
 }
-.nav_link:hover {
+.nav__link:hover {
   color: #fff;
 }
 
-.nav_link:hover::after {
+.nav__link:hover::after {
   display: block;
   opacity: 1;
 }
@@ -121,7 +121,7 @@ body {
 /* .intro_title:hover {
   opacity: 0.7; 
  } */
-.second_container {
+.second__container {
   background-image: url(../Images/кинг2.jpeg);
   background-size: cover;
   color: #cdf3dc;
@@ -152,7 +152,7 @@ span {
   transition: color 0.2s linear;
 }
 
-.second_container img:hover {
+.second__container img:hover {
   border: 2px solid coral;
   transition: color 0.2s linear;
 }
@@ -185,7 +185,7 @@ span {
   height: 135px;
   border-radius: 25px;
 }
-.list_actors {
+.list__actors {
   width: 50%;
   padding-top: 25px;
 
@@ -202,7 +202,7 @@ span {
 padding-bottom: 25px;
   background-color:#21282E;
 }
-.Inst {
+.inst {
   color: #d5dbe7;
   text-decoration: none;
 }
@@ -210,7 +210,7 @@ padding-bottom: 25px;
   color: #d5dbe7;
   text-decoration: none;
 }
-.Inst:hover {
+.inst:hover {
   text-decoration: underline;
   color: coral;
   transition: color 0.2s linear;
