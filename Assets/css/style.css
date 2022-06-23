@@ -21,7 +21,7 @@ body {
   background-size: cover;
   justify-content: center;
   padding-top: 200px;
-  padding-bottom: 35px;
+  padding-bottom: 15px;
 }
 .intro__title {
   font-size: 80px;
@@ -108,7 +108,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   text-decoration: none;
-  margin-top: 30px;
+  border-radius: 10px;
  
   
 }
@@ -128,9 +128,12 @@ body {
   color: #cdf3dc;
   font-size: 15px;
   font-weight: bold;
-  padding:25px;
-  padding-top: 10px;
+  padding:0 15px;
+ margin: 0 auto;
   
+}
+.main__characters h2{
+  font-size: 20px;
 }
 span {
   color: #20b2aa;
@@ -139,7 +142,7 @@ span:hover{
   color: rgb(236, 225, 221);
 }
 .squad {
-  font-size: 35px;
+  text-transform: uppercase ;
   text-align: center;
   color: #d5dbe7;
   padding-top: 10px;
@@ -204,7 +207,7 @@ span:hover{
   padding-top: 20px;
   text-align: center;
 padding-bottom: 25px;
-  background-color:#21282E;
+  background-color:#6e92b1;
 }
 .inst {
   color: #d5dbe7;
@@ -224,10 +227,31 @@ padding-bottom: 25px;
   color: coral;
   transition: color 0.2s linear;
 }
-/* .walker{
-  height:100%;
-  width: 100%;
-  } */
+.walker{
+  height:60%;
+  width: 65%;
+  border-radius: 10px;
+
+  }
+  .walker1{
+    border-radius: 10px;
+    height:60%;
+    width: 65%;
+  }
+  .walker2{
+    height:30%;
+  width: 40%;
+  border-radius: 10px;
+  }
+  .walker__img{
+    text-align: center;
+  }
+  .walker1__img{
+    text-align: center;
+  }
+  .walker2__img{
+    text-align: center;
+  }
   .track{
     width: 50%;
 
@@ -244,12 +268,16 @@ padding-bottom: 25px;
   .download:hover{
     color: rgb(221, 185, 192);
     transition: color 0.2s linear;
+
+  }
+  .media{
+    padding-bottom: 45px;
   }
   .return{
     margin: 0 auto;
     text-align: center;
-    
-    background-color: #21282E;
+    padding-top: 25px;
+    background-color: #6e92b1;
   }
   .return__color{
     color: #cdf3dc;
@@ -260,3 +288,72 @@ padding-bottom: 25px;
   .return__color:hover{
     color: coral;
   }
+  /* .cat{
+    width: 100%;
+ text-align: right;
+    background-color:#6e92b1 ;
+    padding-right: 20px;
+  } */
+ /* .icon__logo{
+ text-align:center;
+ background-color:#6e92b1;
+ padding-top: 15px;
+
+   }
+ .stark{
+  width: 15%;
+ } */
+ /* .crown{
+  width:20%;
+ } */
+ .fa-snowflake-o{
+  padding-left: 15px;
+  padding-right: 20px;
+ }
+.fa-home{
+  padding-right: 10px;
+}
+.fa-download{
+  padding-left: 15px;
+}
+.third__container{
+ 
+  background-color:#21282E;
+  width: 100%;
+ margin-top: -15px;
+ color: #cdf3dc;
+ font-weight: 700;
+
+}
+.text {
+  padding: 15px;
+
+ 
+}
+.fa-file-text-o{
+  padding-right: 15px;
+  color: coral;
+}
+.fa-eye{
+  padding-right: 15px;
+}
+.fa-instagram{
+  padding-right: 10px;
+}
+.fa-facebook-square{
+  padding:0 10px;
+}
+.fa-camera{
+  padding-right: 10px;
+}
+.fa-address-book{
+  padding-right: 10px;
+}
+.fa-diamond{
+  padding-right: 10px;
+}
+.header__inner2{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15px;
+}
