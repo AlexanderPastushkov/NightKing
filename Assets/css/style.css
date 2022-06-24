@@ -11,17 +11,24 @@ body {
   box-sizing: border-box;
 }
 .container {
-  max-width: 700px;
   margin: 0 auto;
-  
+  background-image: url(../Images/ледяной.jpg) ;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
 }
 .intro {
   width: 100%;
-  background: url(../Images/ледяной.jpg) ;
-  background-size: cover;
-  justify-content: center;
+ text-align: center;
+  
   padding-top: 200px;
-  padding-bottom: 15px;
+  padding-bottom: 125px;
+  
 }
 .intro__title {
   font-size: 80px;
@@ -30,6 +37,7 @@ body {
   line-height: 1;
   color: #cdf3dc;
   opacity: 0.7;
+  display: block;
 }
 .intro__title:after {
   content: "";
@@ -43,20 +51,35 @@ body {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  max-width: 700px;
+  opacity: 0.7;
 }
 
 .header {
-  background-color: #21282E;
+  
   padding: 25px 25px;
   width: 100%;
-  
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
   
 }
 #header__logo {
   font-size: 30px;
   font-weight: 700;
   color: #cdf3dc;
+  transition: margin-left .8s;
+
 }
+#header__logo:hover{
+  margin-left: 25px;
+  color: rgb(92, 203, 218);
+  border: 1px solid rgb(92, 203, 218) ;
+  
+}
+
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -130,11 +153,16 @@ body {
   font-weight: bold;
   padding:0 15px;
  margin: 0 auto;
+ 
+ width: 100%;
   
 }
-.main__characters h2{
+.main__characters {
   font-size: 20px;
+  transition: margin-left .8s ;
 }
+.main__characters:hover{
+  margin-left: 25px;}
 span {
   color: #20b2aa;
 }
@@ -320,7 +348,7 @@ padding-bottom: 25px;
  
   background-color:#21282E;
   width: 100%;
- margin-top: -15px;
+ margin-top: 0px;
  color: #cdf3dc;
  font-weight: 700;
 
@@ -352,7 +380,7 @@ padding-bottom: 25px;
 .fa-diamond{
   padding-right: 10px;
 }
-.header__inner2{
+.third__container__inner{
   margin: 0 auto;
   text-align: center;
   padding-top: 15px;
