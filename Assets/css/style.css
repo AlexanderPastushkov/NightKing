@@ -138,7 +138,7 @@ body {
 .btn:hover {
   color: #0e56f4;
   background-color: #141a22;
-  border: none;
+  
   opacity: 0.6;
   transition: color 0.2s linear
 }
@@ -380,7 +380,7 @@ padding-bottom: 25px;
 .fa-diamond{
   padding-right: 10px;
 }
-.third__container__inner{
+.third__container__logo{
   margin: 0 auto;
   text-align: center;
   padding-top: 15px;
